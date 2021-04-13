@@ -19,6 +19,15 @@ code {
     monospace;
 }
 
+.section-title {
+  font-size: 48px;
+  color: var(--primary-color);
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
 
 header {
   padding: 20px 35px;
@@ -71,6 +80,49 @@ header nav ul li a:hover {
 nav li {
   cursor: pointer;
 }
+
+.hero-style {
+  padding: 100px 50px;
+  background-image: url("./assets/jumbotron.img");
+  background-size: cover;
+  background-position: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex start;
+}
+
+.hero-style h2 {
+  animation: slide-right 2s;
+  margin-left: auto;
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+.about-section {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  right: 25%;
+  position: absolute;
+}
+
+.about-text {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+/* This creates space amongst the pictures and adds flex */
+.about div {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 
 footer {
   width: 100%;
