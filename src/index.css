@@ -100,19 +100,19 @@ nav li {
 }
 
 .about-section {
-  padding: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  right: 25%;
-  position: absolute;
+  padding: 30px;
 }
 
 .about-text {
   text-align: center;
   padding-bottom: 50px;
   font-size: 20px;
+  width: 50%;
+  right: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 /* This creates space amongst the pictures and adds flex */
 .about div {
@@ -123,22 +123,38 @@ nav li {
   justify-content: space-evenly;
 }
 
-
-footer {
-  width: 100%;
-  padding: 20px 35px;
-  background-color: var(--primary-color);
+.images {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background: linear-gradient(rgba(9, 115, 146, 0.9),#024e76);
+  justify-content: center;
+}
+
+.photo {
+  padding: 30px;
+  min-height: 150px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images .photo {
+  animation: slide-right 3s;
+  vertical-align: middle;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 
 .footer {
-  width: 100vw;
-  padding: 20px 35px;
+  width: 100%;
+  padding: 30px 10px;
   border-radius: 0;
-  position: fixed;
   bottom: 0;
   z-index: 2;
   background-color: var(--primary-color);
@@ -199,3 +215,5 @@ footer a:hover {
   -webkit-filter: invert(100%); /* Safari/Chrome */
   filter: invert(100%);
 }
+
+/* Try display block for media querie  */
