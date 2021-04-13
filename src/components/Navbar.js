@@ -17,9 +17,17 @@ function Navbar(props) {
                 </a>
             </h2>
             <nav>
-                <a href='Portfolio'>Portfolio</a>
-                <a href='Resume'>Resume</a>
-                <a href='Contact'>Contact</a>
+                <ul>
+                    <li>
+                        <a href='Portfolio'>Portfolio</a>
+                    </li>
+                    <li>
+                        <a href='Resume'>Resume</a>
+                    </li>
+                    <li>
+                        <a href='Contact'>Contact</a>
+                    </li>
+                </ul>
             </nav>
         </header>
     )
