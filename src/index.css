@@ -57,10 +57,6 @@ header a {
   color: var(--tertiary-color) !important;
 }
 
-header nav {
-  margin: 7px 0;
-}
-
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -146,6 +142,11 @@ nav li {
   vertical-align: middle;
 }
 
+.contact-container {
+  background-color: var(--tertiary-color) !important;
+  margin-bottom: 10% !important;
+}
+
 @keyframes slide-right {
   from {
     margin-left: -100%;
@@ -213,6 +214,12 @@ nav li {
   margin-right: 10vw;
 }
 
+@media (max-width:360px) {
+  header nav ul li a {
+    font-size:25px !important;
+  }
+}
+
 @media (max-width:1380px) {
   .footer li:not(:last-child) {
       margin-right: 5vw;
@@ -231,11 +238,11 @@ nav li {
 }
 
 footer a {
-  color: white;
+  color: var(--secondary-color);
 }
 
 footer a:hover {
-  color: darkgray;
+  color: var(--secondary-color);
 }
 
 footer a:hover {
