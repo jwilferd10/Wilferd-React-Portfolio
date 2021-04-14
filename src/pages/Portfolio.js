@@ -7,18 +7,16 @@ import Figure from 'react-bootstrap/Figure'
 
 const Portfolio = () => {
     return (
-
         <div>
-            <section>
-                <h1 class="section-title portfolio">Portfolio:</h1>
-                <p></p>
-            </section>
-
             <section style={{textAlign:"center"}}>
+
+                {/* NOFT */}
+
                 <h3 class="section-title portfolio">NoFT</h3>
                 <Figure>
-                    <a href="http://reprint-media.herokuapp.com/">
+                    <a class="projectImage" href="http://reprint-media.herokuapp.com/">
                         <Figure.Image
+                            class="project"
                             width={1000}
                             height={500}
                             alt="NoFT"
@@ -26,15 +24,18 @@ const Portfolio = () => {
                         />
                     </a>
                     <Figure.Caption>
-                        <p>Github: <a href="https://github.com/Siphon880gh/reprint">NoFT</a></p>
-                        <p>NoFT is an environment where users can share, favorite, download, and discuss all of their favorite NFT works without actually interacting with any real non-fungible tokens. No changes to the chain-of-title, no interaction with cryptocurrency wallets, no financial transactions of any kind.</p>
+                        <h3>Github: <a href="https://github.com/Siphon880gh/reprint">NoFT</a></h3>
+                        <p class="portfolioText">NoFT is an environment where users can share, favorite, download, and discuss all of their favorite NFT works without actually interacting with any real non-fungible tokens. No changes to the chain-of-title, no interaction with cryptocurrency wallets, no financial transactions of any kind.</p>
                     </Figure.Caption>
                 </Figure>
 
+                {/* ZAP&DRIVE */}
+
                 <h3 class="section-title zapdrive">Zap&Drive</h3>
                 <Figure>
-                    <a href="https://arlontuazon.github.io/ZapDrive/"> 
+                    <a class="projectImage" href="https://arlontuazon.github.io/ZapDrive/"> 
                         <Figure.Image
+                            class="project"
                             width={1000}
                             height={500}
                             alt="Zap and Drive"
@@ -42,15 +43,18 @@ const Portfolio = () => {
                         />
                     </a>
                     <Figure.Caption>
-                        <p>Github: <a href="https://github.com/ArlonTuazon/ZapDrive">Zap&Drive</a> </p>
-                        <p>Zap&Drive </p>
+                        <h3>Github Repository: <a href="https://github.com/ArlonTuazon/ZapDrive">Zap&Drive</a> </h3>
+                        <p class="portfolioText">Zap&Drive is a project that allows users to find EV charging stations within America by entering a city (or postal code) and state. A lightning bolt appears over every charging station located, clicking on the bolt opens up details such as the areas address.</p>
                     </Figure.Caption>
                 </Figure>
 
+                {/* BUDGET TRACKER */}
+
                 <h3 class="section-title budget">Budget Tracker</h3>
                 <Figure>
-                    <a href="https://stormy-ridge-74437.herokuapp.com/">
+                    <a class="projectImage" href="https://stormy-ridge-74437.herokuapp.com/">
                         <Figure.Image
+                            class="project"
                             width={1000}
                             height={500}
                             alt="budget tracker functionality"
@@ -58,15 +62,18 @@ const Portfolio = () => {
                         />
                     </a>
                     <Figure.Caption>
-                        <p>Github: <a href="https://github.com/jwilferd10/Budget-Tracker-Galore">Budget Tracker Galore</a> </p>
-                        <p class="desc-team-member">Giving users a fast and easy way to track their money is important, but allowing them to access that information at any time is even more important. Having offline functionality is paramount to the success of an application that handles users’ financial information. Like most challenges I've worked on in the past, this introduction into PWA's was best described as grueling despite some understanding how the concepts work. However putting it into practice somehow proved to be harder then I expected, but thankfully after investing the time to overcome the issues that did pop up I do certainly feel like I've learned a whole lot in this particular experience.</p>
+                        <h3>Github Repository: <a href="https://github.com/jwilferd10/Budget-Tracker-Galore">Budget Tracker Galore</a> </h3>
+                        <p class="portfolioText">Giving users a fast and easy way to track their money is important, but allowing them to access that information at any time is even more important. Having offline functionality is paramount to the success of an application that handles users’ financial information.</p>
                     </Figure.Caption>
                 </Figure>
 
+                {/* SHOP-SHOP */}
+
                 <h3 class="section-title shopshop">Shop Shop Redux</h3>
                 <Figure>
-                    <a href="https://hidden-temple-77331.herokuapp.com/">
+                    <a class="projectImage" href="https://hidden-temple-77331.herokuapp.com/">
                         <Figure.Image
+                            class="project"
                             width={1000}
                             height={500}
                             alt="shop shop's homepage"
@@ -74,8 +81,8 @@ const Portfolio = () => {
                         />
                     </a>
                     <Figure.Caption>
-                        <p>Github: <a href="https://github.com/jwilferd10/Shop-Shop-Redux">Shop-Shop-Redux</a> </p>
-                        <p class="desc-team-member">Passionate about all things coding especially web development, Weng has made this a hobby and side job for countless years.</p>
+                        <h3>Github Repository: <a href="https://github.com/jwilferd10/Shop-Shop-Redux">Shop-Shop-Redux</a> </h3>
+                        <p class="portfolioText">Shop-Shop-Redux was an ecommerce website that was created using React and GraphQL, further work was then added to this project by refactoring sections of the JSX to use React Redux for better performance.</p>
                     </Figure.Caption>
                 </Figure>
             </section>

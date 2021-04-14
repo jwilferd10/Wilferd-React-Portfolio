@@ -150,6 +150,28 @@ nav li {
   }
 }
 
+.project {
+  border: thick double var(--tertiary-color);
+}
+
+.projectImage:hover{
+  -webkit-filter: blur(3px); /* Chrome, Safari, Opera */
+  filter: blur(3px);
+  transition-duration: 1s;
+}
+
+.portfolioText{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 20px;
+  width: 50%;
+  right: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .footer {
   width: 100%;
   padding: 30px 10px;
