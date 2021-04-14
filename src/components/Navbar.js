@@ -12,11 +12,7 @@ function Navbar(props) {
     return (
         <section>
             <header>
-                <h2>
-                    <a href='/'>
-                        <span>Jonathan Wilferd </span>
-                    </a>
-                </h2>
+                <h1><a href="/">Jonathan Wilferd</a></h1>
                 <nav>
                     <ul>
                         <li>

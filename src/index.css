@@ -4,14 +4,20 @@
   --tertiary-color: #83b4b3;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--secondary-color);
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  background-color: var(--secondary-color) !important;
 }
 
 code {
@@ -30,25 +36,25 @@ code {
 }
 
 header {
-  padding: 20px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: var(--primary-color);
-  background: linear-gradient(rgba(9, 115, 146, 0.7), #024e76);
+  padding: 20px 35px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  background-color: var(--primary-color) !important;
+  background: linear-gradient(rgba(9, 115, 146, 0.7), #024e76) !important;
 }
 
-header h1 {
-  font-weight: bold;
-  font-size: 32px;
-  color: var(--tertiary-color);
-  margin: 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+header h1 a {
+  font-weight: bold !important;
+  font-size: 32px !important;
+  color: var(--tertiary-color) !important;
+  margin: 0 !important;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
 }
 
 header a {
-  text-decoration: none;
-  color: var(--tertiary-color);
+  text-decoration: none !important;
+  color: var(--tertiary-color) !important;
 }
 
 header nav {
