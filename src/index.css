@@ -93,7 +93,6 @@ nav li {
 }
 
 .hero-style h2 {
-  animation: slide-right 2s;
   margin-left: auto;
   color: var(--secondary-color);
   font-style: italic;
