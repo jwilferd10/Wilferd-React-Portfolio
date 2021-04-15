@@ -1,14 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function Navbar(props) {
-    const {
-        categories = [],
-        setCurrentCategory,
-        contactSelected,
-        currentCategory,
-        setContactSelected,
-    } = props;
-
     return (
         <section>
             <header>

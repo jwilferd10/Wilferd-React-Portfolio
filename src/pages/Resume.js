@@ -1,5 +1,4 @@
 import React from 'react';
-import {Card, Accordion, Button} from 'react-bootstrap'
 
 const Resume = () => {
     return (
