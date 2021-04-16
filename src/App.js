@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path='/' component={About} />
+        <Route exact path='/About' component={About} />
         <Route exact path='/Portfolio' component={Portfolio} />
         <Route exact path='/Resume' component={Resume} />
         <Route exact path='/Contact' component={Contact} />

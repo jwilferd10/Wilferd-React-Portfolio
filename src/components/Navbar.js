@@ -4,9 +4,12 @@ function Navbar(props) {
     return (
         <section>
             <header>
-                <h1><a href="/">Jonathan Wilferd</a></h1>
+                <h1><a href='About'>Jonathan Wilferd</a></h1>
                 <nav>
                     <ul>
+                        <li>
+                            <a href='About'>About</a>
+                        </li>
                         <li>
                             <a href='Portfolio'>Portfolio</a>
                         </li>

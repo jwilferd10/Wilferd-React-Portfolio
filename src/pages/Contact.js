@@ -41,7 +41,7 @@ function ContactForm() {
   return (
     <section>
         <h1 class="section-title about">Reach Out:</h1>
-        <Card class="contact-container">
+        <div class="contact-container">
           <Form id="contact-form" onSubmit={handleSubmit}>
               <div>
                   <Form.Group controlId="NameInput">
@@ -67,7 +67,7 @@ function ContactForm() {
                   <Button data-testid="button" type="submit">Submit</Button>
               </div>
           </Form>
-        </Card>
+        </div>
     </section>
   );
 }
