@@ -22,17 +22,11 @@
 ![image](images/Demo.gif)
 
 ## Description:
-<p> I took a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It was already set up to allow users to save book searches to the back end. </p>
+<p>"Being a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects."</p>
 
-<p> These are the following changes done: </p>
+<p>I was tasked to create a personalized portfolio for myself using React. This is to showcase understanding in newer technology. One of the requirements for this challenge was to deploy it to GitHub Pages, but unfortunately I had more problems getting this deployed through pages then actually setting up the entire portfolio. So to remedy this, I set it up on Heroku instead! </p>
 
-1) Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
-
-2) Modify the existing authentication middleware so that it works in the context of a GraphQL API.
-
-3) Create an Apollo Provider so that requests can communicate with an Apollo Server.
-
-<p> Funny enough this is my second attempt trying to get this Search-Engine to work. Originally in my first attempt I ran into a heap of issues then left the project to work on another. After coming back to this project I grew so confused and did not understand where I left off, primarily because of a lack of comments. Because of the mass confusion I decided it'd be better to start the challenge from scratch and retrace my steps on how I set everything up. That made the work process much easier, but I still ran into problems trying to get my Search Engine up and running. Thankfully I was able to sidestep these issues and got everything working! So please, enjoy the Book Search Engine 3000! </p>
+<p>I had an incredible time setting up the portfolio, I've plans on revamping this entire project when I have a bit more time so that it showcases what I'm truly capable of. There are some issues with this current version, the About page has a hard time rendering on the phone but the other pages work perfectly fine. </p>
 
 ## :book: User Story:
 **AS AN employer looking for candidates with experience building single-page applications**
