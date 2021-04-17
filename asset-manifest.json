@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/Wilferd-React-Portfolio/static/css/main.b8f2a94d.chunk.css",
-    "main.js": "/Wilferd-React-Portfolio/static/js/main.07bef7f3.chunk.js",
-    "main.js.map": "/Wilferd-React-Portfolio/static/js/main.07bef7f3.chunk.js.map",
-    "runtime-main.js": "/Wilferd-React-Portfolio/static/js/runtime-main.d5adb802.js",
-    "runtime-main.js.map": "/Wilferd-React-Portfolio/static/js/runtime-main.d5adb802.js.map",
+    "main.js": "/Wilferd-React-Portfolio/static/js/main.2e5e8219.chunk.js",
+    "main.js.map": "/Wilferd-React-Portfolio/static/js/main.2e5e8219.chunk.js.map",
+    "runtime-main.js": "/Wilferd-React-Portfolio/static/js/runtime-main.9857e6b3.js",
+    "runtime-main.js.map": "/Wilferd-React-Portfolio/static/js/runtime-main.9857e6b3.js.map",
     "static/css/2.ef9168ec.chunk.css": "/Wilferd-React-Portfolio/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.3fc22a0c.chunk.js": "/Wilferd-React-Portfolio/static/js/2.3fc22a0c.chunk.js",
-    "static/js/2.3fc22a0c.chunk.js.map": "/Wilferd-React-Portfolio/static/js/2.3fc22a0c.chunk.js.map",
-    "static/js/3.2fe779ec.chunk.js": "/Wilferd-React-Portfolio/static/js/3.2fe779ec.chunk.js",
-    "static/js/3.2fe779ec.chunk.js.map": "/Wilferd-React-Portfolio/static/js/3.2fe779ec.chunk.js.map",
+    "static/js/2.c652975d.chunk.js": "/Wilferd-React-Portfolio/static/js/2.c652975d.chunk.js",
+    "static/js/2.c652975d.chunk.js.map": "/Wilferd-React-Portfolio/static/js/2.c652975d.chunk.js.map",
+    "static/js/3.01596743.chunk.js": "/Wilferd-React-Portfolio/static/js/3.01596743.chunk.js",
+    "static/js/3.01596743.chunk.js.map": "/Wilferd-React-Portfolio/static/js/3.01596743.chunk.js.map",
     "index.html": "/Wilferd-React-Portfolio/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/Wilferd-React-Portfolio/static/css/2.ef9168ec.chunk.css.map",
     "static/css/main.b8f2a94d.chunk.css.map": "/Wilferd-React-Portfolio/static/css/main.b8f2a94d.chunk.css.map",
-    "static/js/2.3fc22a0c.chunk.js.LICENSE.txt": "/Wilferd-React-Portfolio/static/js/2.3fc22a0c.chunk.js.LICENSE.txt",
+    "static/js/2.c652975d.chunk.js.LICENSE.txt": "/Wilferd-React-Portfolio/static/js/2.c652975d.chunk.js.LICENSE.txt",
     "static/media/NoFT.fdd81de8.png": "/Wilferd-React-Portfolio/static/media/NoFT.fdd81de8.png",
+    "static/media/Resume.245523d6.pdf": "/Wilferd-React-Portfolio/static/media/Resume.245523d6.pdf",
     "static/media/budget.638c47fa.png": "/Wilferd-React-Portfolio/static/media/budget.638c47fa.png",
     "static/media/hobbies-1.0aaef4a4.jpg": "/Wilferd-React-Portfolio/static/media/hobbies-1.0aaef4a4.jpg",
     "static/media/hobbies-2.9facf1eb.jpg": "/Wilferd-React-Portfolio/static/media/hobbies-2.9facf1eb.jpg",
@@ -24,10 +25,10 @@
     "static/media/zapdrive.1a09842c.jpg": "/Wilferd-React-Portfolio/static/media/zapdrive.1a09842c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5adb802.js",
+    "static/js/runtime-main.9857e6b3.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.3fc22a0c.chunk.js",
+    "static/js/2.c652975d.chunk.js",
     "static/css/main.b8f2a94d.chunk.css",
-    "static/js/main.07bef7f3.chunk.js"
+    "static/js/main.2e5e8219.chunk.js"
   ]
 }
