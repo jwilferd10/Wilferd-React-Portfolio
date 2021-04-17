@@ -22,7 +22,7 @@
 ![image](images/Demo.gif)
 
 ## Description:
-<p>"Being a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects."</p>
+<p><em>"Being a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects."</em></p>
 
 <p>I was tasked to create a personalized portfolio for myself using React. This is to showcase understanding in newer technology. One of the requirements for this challenge was to deploy it to GitHub Pages, but unfortunately I had more problems getting this deployed through pages then actually setting up the entire portfolio. So to remedy this, I set it up on Heroku instead! </p>
 
