@@ -7,7 +7,7 @@ const Resume = () => {
         <React.Fragment>
             <div class="about-text">
                 <h1 class="section-title resume">Resume</h1>
-                <h2><a href={resume} download="CLHurlbutResume.pdf"> Download Resume </a></h2>
+                <h2><a href={resume} download="jwilferdResume.pdf"> Download Resume </a></h2>
                 <h2>Education:</h2>
                 <h3>California Virtual Academy @ Los Angeles</h3>  
                 <p>Class of 2016</p>
