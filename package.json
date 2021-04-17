@@ -1,6 +1,6 @@
 {
-  "name": "reactportfolio",
-  "homepage": "https://jwilferd10.github.io/Wilferd-React-Portfolio",
+  "name": "portfolio",
+  "homepage": "https://jwilferd10.github.io/Wilferd-React-Portfolio/#",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
