@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://jwilferd10.github.io/Wilferd-React-Portfolio/About",
+  "homepage": "https://jwilferd10.github.io/Wilferd-React-Portfolio/#",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
